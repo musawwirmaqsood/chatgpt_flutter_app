@@ -1,9 +1,10 @@
-import 'package:chatgpt_flutter_app/ui/answer/answer_screen.dart';
-import 'package:chatgpt_flutter_app/ui/chat/chat_cubit.dart';
-import 'package:chatgpt_flutter_app/ui/chat/chat_event.dart';
-import 'package:chatgpt_flutter_app/ui/chat/chat_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../ui/answer/answer_screen.dart';
+import '../ui/chat/chat_cubit.dart';
+import '../ui/chat/chat_event.dart';
+import '../ui/chat/chat_state.dart';
 
 class ChatScreen extends StatelessWidget {
   final TextEditingController _inputController = TextEditingController();
